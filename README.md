@@ -19,3 +19,6 @@ recomendações e comunidades de interesse em uma rede social.
 - Menor distância entre usuários
 - Análise de engajamento
 - Comunidades baseadas em hashtags
+
+## Carga de dados
+“Os dados foram carregados a partir de um arquivo CSV hospedado no GitHub, utilizando LOAD CSV do Neo4j. A carga foi realizada de forma incremental, criando nós de usuários, tweets, hashtags e seus relacionamentos, garantindo integridade por meio de constraints e evitando duplicações com MERGE.”
