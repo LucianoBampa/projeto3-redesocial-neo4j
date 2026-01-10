@@ -49,3 +49,5 @@ O uso de algoritmos de caminho mínimo e análise de conexões evidencia o poder
 
 ## Modelagem
 A modelagem do grafo foi realizada com a ferramenta **Arrows**, representando usuários, tweets, hashtags e seus relacionamentos.
+O modelo grafo-redesocial.png foi projetado para refletir diretamente os dados disponíveis no dataset,
+priorizando simplicidade, performance e clareza analítica.
