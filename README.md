@@ -51,3 +51,14 @@ O uso de algoritmos de caminho mínimo e análise de conexões evidencia o poder
 A modelagem do grafo foi realizada com a ferramenta **Arrows**, representando usuários, tweets, hashtags e seus relacionamentos.
 O modelo grafo-redesocial.png foi projetado para refletir diretamente os dados disponíveis no dataset,
 priorizando simplicidade, performance e clareza analítica.
+
+## Como Rodar
+1. Clone o repositório
+2. Abra Neo4j Aura
+3. Configure a conexão
+4. Execute os scripts em ordem:
+   1. 01_constraints_and_indexes.cypher
+   2. 02_load_csv.cypher
+   3. 03_queries_analise.cypher
+5. Veja os resultados executando as queries no Neo4j Browser
+
